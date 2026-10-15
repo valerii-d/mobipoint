@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MobiPoint — мобільні аксесуари: чохли, скло, зарядки, навушники</title>
+  <meta name="description" content="MobiPoint — магазин мобільних аксесуарів. Оригінальні чохли, захисні скла, зарядні пристрої, кабелі та навушники. Консультація, гарантія, доставка по Україні.">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="canonical" href="https://example.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MobiPoint — мобільні аксесуари">
+  <meta property="og:description" content="Чохли, скло, зарядки, кабелі та навушники з гарантією.">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:image" content="https://example.com/assets/img/og.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "MobiPoint",
+    "description": "Магазин мобільних аксесуарів",
+    "telephone": "+380501234567",
+    "email": "info@mobipoint.example",
+    "url": "https://example.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "вул. Соборна, 10",
+      "addressLocality": "Кременчук",
+      "addressCountry": "UA"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday", "opens": "10:00", "closes": "17:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+
+  <!-- 1. ШАПКА -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="MobiPoint — на головну">
+        <span class="logo__mark">M</span>
+        <span class="logo__text">Mobi<b>Point</b></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Головне меню">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">Про нас</a></li>
+          <li><a href="#brands" class="nav__link">Бренди</a></li>
+          <li><a href="#gallery" class="nav__link">Галерея</a></li>
+          <li><a href="#team" class="nav__link">Команда</a></li>
+          <li><a href="#policies" class="nav__link">Умови</a></li>
+          <li><a href="#hours" class="nav__link">Години</a></li>
+          <li><a href="#contacts" class="nav__link">Контакти</a></li>
+        </ul>
+        <a href="tel:+380501234567" class="btn btn--small nav__call">📞 Зателефонувати</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">Мобільні аксесуари №1 у вашому місті</span>
+          <h1>Кременчуцький національний університет</h1>
+          <p class="hero__lead">Чохли, захисні скла, зарядки, кабелі та навушники від перевірених брендів. Підберемо аксесуар під вашу модель і наклеїмо скло безкоштовно.</p>
+          <div class="hero__actions">
+            <a href="#gallery" class="btn">Дивитись асортимент</a>
+            <a href="#contacts" class="btn btn--ghost">Як нас знайти</a>
+          </div>
+          <p class="open-status" data-open-status aria-live="polite"></p>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__screen">
+              <span>🔌</span><span>🎧</span><span>🛡️</span><span>🔋</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ПРО КОМПАНІЮ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow">Про компанію</span>
+          <h2>MobiPoint — аксесуари з турботою про ваш гаджет</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text">
+            <p>Ми працюємо з 2015 року і за цей час допомогли понад 20&nbsp;000 клієнтів підібрати аксесуари для їхніх смартфонів, планшетів і розумних годинників.</p>
+            <p>Наш принцип простий: тільки якісні товари, чесні ціни та уважна консультація. Якщо щось не підійшло — ми допоможемо обміняти або повернути.</p>
+          </div>
+          <ul class="features">
+            <li class="feature"><span class="feature__icon">✅</span><div><h3>Оригінальна продукція</h3><p>Працюємо напряму з дистриб'юторами.</p></div></li>
+            <li class="feature"><span class="feature__icon">🛠️</span><div><h3>Безкоштовне наклеювання</h3><p>Захисне скло або плівка за 5 хвилин.</p></div></li>
+            <li class="feature"><span class="feature__icon">🛡️</span><div><h3>Гарантія до 12 місяців</h3><p>На зарядні пристрої та навушники.</p></div></li>
+            <li class="feature"><span class="feature__icon">💬</span><div><h3>Консультація експерта</h3><p>Допоможемо обрати під вашу модель.</p></div></li>
+          </ul>
+        </div>
+
+        <ul class="stats">
+          <li><b data-count="10">0</b><span>років на ринку</span></li>
+          <li><b data-count="20000">0</b><span>задоволених клієнтів</span></li>
+          <li><b data-count="3500">0</b><span>товарів у наявності</span></li>
+          <li><b data-count="12">0</b><span>брендів-партнерів</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. БРЕНДИ -->
+    <section class="section section--alt" id="brands">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow">Партнери</span>
+          <h2>Бренди, з якими ми співпрацюємо</h2>
+          <p class="section__sub">Замініть текстові позначки на офіційні логотипи (за наявності дозволу партнерів).</p>
+        </header>
+        <ul class="brands">
+          <li class="brand">Apple</li>
+          <li class="brand">Samsung</li>
+          <li class="brand">Xiaomi</li>
+          <li class="brand">Anker</li>
+          <li class="brand">Baseus</li>
+          <li class="brand">UGREEN</li>
+          <li class="brand">JBL</li>
+          <li class="brand">Belkin</li>
+          <li class="brand">Spigen</li>
+          <li class="brand">Hoco</li>
+          <li class="brand">Borofone</li>
+          <li class="brand">Remax</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. ГАЛЕРЕЯ -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow">Галерея</span>
+          <h2>Наші товари та наша точка</h2>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Фільтр галереї">
+          <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">Усе</button>
+          <button class="tab" role="tab" aria-selected="false" data-filter="products">Товари</button>
+          <button class="tab" role="tab" aria-selected="false" data-filter="store">Наша точка</button>
+        </div>
+
+        <!--
+          Для реальних фото замініть блок .ph на:
+          <img src="assets/img/gallery/photo.webp" alt="Опис" loading="lazy" width="600" height="450">
+          і додайте data-full="assets/img/gallery/photo-large.webp" на <button>.
+        -->
+        <ul class="gallery" id="gallery-grid">
+          <li class="gallery__item" data-category="products"><button type="button" class="gallery__btn" data-caption="Чохли для iPhone та Samsung"><span class="ph ph--1">📱</span><span class="gallery__cap">Чохли</span></button></li>
+          <li class="gallery__item" data-category="store"><button type="button" class="gallery__btn" data-caption="Торговий зал"><span class="ph ph--2">🏪</span><span class="gallery__cap">Торговий зал</span></button></li>
+          <li class="gallery__item" data-category="products"><button type="button" class="gallery__btn" data-caption="Зарядні пристрої та кабелі"><span class="ph ph--3">🔌</span><span class="gallery__cap">Зарядки та кабелі</span></button></li>
+          <li class="gallery__item" data-category="products"><button type="button" class="gallery__btn" data-caption="Бездротові навушники"><span class="ph ph--4">🎧</span><span class="gallery__cap">Навушники</span></button></li>
+          <li class="gallery__item" data-category="store"><button type="button" class="gallery__btn" data-caption="Зона консультації"><span class="ph ph--5">💬</span><span class="gallery__cap">Зона консультації</span></button></li>
+          <li class="gallery__item" data-category="products"><button type="button" class="gallery__btn" data-caption="Захисні скла та плівки"><span class="ph ph--6">🛡️</span><span class="gallery__cap">Захисні скла</span></button></li>
+          <li class="gallery__item" data-category="store"><button type="button" class="gallery__btn" data-caption="Вхід до магазину"><span class="ph ph--7">🚪</span><span class="gallery__cap">Вхід</span></button></li>
+          <li class="gallery__item" data-category="products"><button type="button" class="gallery__btn" data-caption="Powerbank та автотримачі"><span class="ph ph--8">🔋</span><span class="gallery__cap">Powerbank</span></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. СПІВРОБІТНИКИ -->
+    <section class="section section--alt" id="team">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow">Команда</span>
+          <h2>Люди, які допоможуть із вибором</h2>
+        </header>
+        <ul class="team">
+          <li class="person">
+            <div class="person__photo" aria-hidden="true">ОК</div>
+            <h3>Олександр Коваленко</h3>
+            <p class="person__role">Керівник точки</p>
+            <p class="person__exp">Досвід: 10 років у рітейлі гаджетів</p>
+          </li>
+          <li class="person">
+            <div class="person__photo" aria-hidden="true">МП</div>
+            <h3>Марія Петренко</h3>
+            <p class="person__role">Старший консультант</p>
+            <p class="person__exp">Досвід: 6 років, спеціалізація — чохли та скло</p>
+          </li>
+          <li class="person">
+            <div class="person__photo" aria-hidden="true">ІС</div>
+            <h3>Ігор Савченко</h3>
+            <p class="person__role">Майстер з наклеювання</p>
+            <p class="person__exp">Досвід: 5 років, понад 8&nbsp;000 наклеєних скол</p>
+          </li>
+          <li class="person">
+            <div class="person__photo" aria-hidden="true">АМ</div>
+            <h3>Анна Мельник</h3>
+            <p class="person__role">Менеджер із доставки</p>
+            <p class="person__exp">Досвід: 4 роки, онлайн-замовлення</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. УМОВИ ОБМІНУ, ПОВЕРНЕННЯ, ДОСТАВКА -->
+    <section class="section" id="policies">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <span class="eyebrow">Умови</span>
+          <h2>Обмін, повернення та доставка</h2>
+        </header>
+
+        <div class="accordion" id="accordion">
+          <div class="acc">
+            <h3 class="acc__title">
+              <button class="acc__btn" aria-expanded="true" aria-controls="acc-1" id="acc-btn-1">Обмін товару<span class="acc__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="acc__panel" id="acc-1" role="region" aria-labelledby="acc-btn-1">
+              <div class="acc__body">
+                <ul>
+                  <li>Обмін надійного товару — протягом 14 днів з дня покупки.</li>
+                  <li>Товар не був у використанні, збережені упаковка, ярлики та комплектація.</li>
+                  <li>Необхідний чек або інший документ, що підтверджує покупку.</li>
+                  <li>Обмін на аналогічний товар або на інший з доплатою/поверненням різниці.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="acc">
+            <h3 class="acc__title">
+              <button class="acc__btn" aria-expanded="false" aria-controls="acc-2" id="acc-btn-2">Повернення коштів<span class="acc__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="acc__panel" id="acc-2" role="region" aria-labelledby="acc-btn-2" hidden>
+              <div class="acc__body">
+                <ul>
+                  <li>Повернення коштів за якісний товар — відповідно до Закону України «Про захист прав споживачів».</li>
+                  <li>Товар із заводським браком повертається або ремонтується за гарантією.</li>
+                  <li>Кошти повертаються тим самим способом, яким здійснювалась оплата, протягом 7 робочих днів.</li>
+                  <li><b>Не підлягають поверненню:</b> захисні скла та плівки після наклеювання, навушники-вкладиші з порушеною гігієнічною упаковкою.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="acc">
+            <h3 class="acc__title">
+              <button class="acc__btn" aria-expanded="false" aria-controls="acc-3" id="acc-btn-3">Доставка й оплата<span class="acc__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="acc__panel" id="acc-3" role="region" aria-labelledby="acc-btn-3" hidden>
+              <div class="acc__body">
+                <ul>
+                  <li><b>Нова пошта:</b> відділення, поштомат або кур'єр, 1–3 дні по Україні.</li>
+                  <li><b>Укрпошта:</b> 3–7 днів, доступно для невеликих відправлень.</li>
+                  <li><b>Самовивіз:</b> безкоштовно з нашої точки в робочі години.</li>
+                  <li>Безкоштовна доставка при замовленні від 1&nbsp;500&nbsp;₴.</li>
+                  <li>Оплата: готівка, картка, накладений платіж, безготівковий розрахунок.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="note">Умови наведено як приклад. Остаточний текст узгоджується із законодавством і політикою магазину.</p>
+      </div>
+    </section>
+
+    <!-- 7. РОБОЧІ ГОДИНИ -->
+    <section class="section section--alt" id="hours">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <span class="eyebrow">Графік</span>
+          <h2>Робочі години</h2>
+          <p class="open-status open-status--lg" data-open-status aria-live="polite"></p>
+        </header>
+
+        <table class="hours">
+          <caption class="sr-only">Графік роботи по днях тижня</caption>
+          <tbody>
+            <tr data-day="1"><th scope="row">Понеділок</th><td>09:00 – 19:00</td></tr>
+            <tr data-day="2"><th scope="row">Вівторок</th><td>09:00 – 19:00</td></tr>
+            <tr data-day="3"><th scope="row">Середа</th><td>09:00 – 19:00</td></tr>
+            <tr data-day="4"><th scope="row">Четвер</th><td>09:00 – 19:00</td></tr>
+            <tr data-day="5"><th scope="row">П'ятниця</th><td>09:00 – 19:00</td></tr>
+            <tr data-day="6"><th scope="row">Субота</th><td>10:00 – 17:00</td></tr>
+            <tr data-day="0"><th scope="row">Неділя</th><td>Вихідний</td></tr>
+          </tbody>
+        </table>
+        <p class="note">У святкові дні графік може змінюватися — уточнюйте за телефоном.</p>
+      </div>
+    </section>
+
+    <!-- 8. КОНТАКТИ ТА ФОРМА -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow">Контакти</span>
+          <h2>Зв'яжіться з нами</h2>
+        </header>
+
+        <div class="contacts">
+          <div class="contacts__info">
+            <ul class="contact-list">
+              <li><span class="ci">📍</span><div><b>Адреса</b><br>м. Кременчук, вул. Соборна, 10</div></li>
+              <li><span class="ci">📞</span><div><b>Телефон</b><br><a href="tel:+380501234567">+38 (050) 123-45-67</a></div></li>
+              <li><span class="ci">✉️</span><div><b>E-mail</b><br><a href="mailto:info@mobipoint.example">info@mobipoint.example</a></div></li>
+              <li><span class="ci">💬</span><div><b>Месенджери</b><br><a href="https://t.me/" target="_blank" rel="noopener">Telegram</a> · <a href="viber://chat?number=%2B380501234567">Viber</a></div></li>
+            </ul>
+
+            <div class="map">
+              <iframe title="Карта: розташування магазину" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=33.38%2C49.05%2C33.46%2C49.10&amp;layer=mapnik"></iframe>
+            </div>
+            <a class="btn btn--ghost btn--small" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/dir/?api=1&destination=%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C%20%D0%B2%D1%83%D0%BB.%20%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%2C%2010">🧭 Прокласти маршрут</a>
+          </div>
+
+          <form class="form" id="contact-form" novalidate>
+            <h3>Напишіть нам</h3>
+
+            <div class="field">
+              <label for="f-name">Ім'я *</label>
+              <input type="text" id="f-name" name="name" autocomplete="name" required minlength="2" maxlength="60">
+              <small class="error" data-error-for="f-name"></small>
+            </div>
+
+            <div class="field">
+              <label for="f-contact">Телефон або e-mail *</label>
+              <input type="text" id="f-contact" name="contact" autocomplete="tel" required maxlength="80" placeholder="+38 050 123 45 67">
+              <small class="error" data-error-for="f-contact"></small>
+            </div>
+
+            <div class="field">
+              <label for="f-topic">Тема</label>
+              <select id="f-topic" name="topic">
+                <option>Питання про товар</option>
+                <option>Наявність аксесуара</option>
+                <option>Обмін / повернення</option>
+                <option>Доставка</option>
+                <option>Інше</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="f-message">Повідомлення *</label>
+              <textarea id="f-message" name="message" rows="4" required minlength="10" maxlength="1000"></textarea>
+              <small class="error" data-error-for="f-message"></small>
+            </div>
+
+            <!-- Honeypot від спам-ботів -->
+            <div class="hp" aria-hidden="true">
+              <label>Не заповнюйте <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            </div>
+
+            <div class="field field--check">
+              <label class="check">
+                <input type="checkbox" id="f-agree" name="agree" required>
+                <span>Погоджуюсь на обробку персональних даних згідно з <a href="privacy.html" target="_blank">політикою конфіденційності</a> *</span>
+              </label>
+              <small class="error" data-error-for="f-agree"></small>
+            </div>
+
+            <button type="submit" class="btn btn--block" id="f-submit">Надіслати повідомлення</button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ФУТЕР -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> MobiPoint. Усі права захищено.</p>
+      <nav aria-label="Нижнє меню">
+        <a href="#about">Про нас</a>
+        <a href="#policies">Умови</a>
+        <a href="#contacts">Контакти</a>
+        <a href="privacy.html">Конфіденційність</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Нагору" hidden>↑</button>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Перегляд фото" hidden>
+    <button class="lightbox__close" id="lb-close" aria-label="Закрити">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lb-prev" aria-label="Попереднє">‹</button>
+    <figure class="lightbox__fig">
+      <div class="lightbox__stage" id="lb-stage"></div>
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lb-next" aria-label="Наступне">›</button>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
